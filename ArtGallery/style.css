@@ -1,0 +1,105 @@
+h1 {
+    font-family: 'Source Serif Pro', serif;
+}
+
+.social-media {
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.social-media:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    margin: 1%;
+    opacity: .5;
+}
+
+#Header {
+    position: relative;
+    width: 100%; 
+    height: 5em;
+    text-align: center;
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+}
+
+.item { 
+    position: relative;
+    width: 100%; 
+    height: 30em;
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+} 
+
+form {
+    display: block;
+    width: 15px;
+    float: right;
+}
+
+#item1, #item2, #item3, #item4, #item5 {
+    color: #333;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear; 
+}
+
+#item1:hover, #item2:hover, #item3:hover, #item4:hover, #item5:hover{
+    background-color: white;
+    margin-bottom: 3%;
+    margin-top: 3% 
+}
+
+#item1 {
+    background-color: #FF9EC8;
+}
+
+#item2 {
+    background-color: #2aadd3;
+}
+
+#item3{
+    background-color: #fef25e;
+}
+
+
+#item4{
+    background-color: #9bfd9c;
+}
+
+
+#item5{
+    background-color: #F76640;
+}
+
+
+ #img1, #img2, #img3, #img4, #img5{
+    display: none;
+    margin: auto; 
+    max-width:100%; 
+    max-height:100%;
+}
+
+#buy1, #buy2, #buy3, #buy4, #buy5{
+    display: none;
+    width: 15%;
+    position: absolute;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+
+}
+
+#buy1:hover, #buy2:hover, #buy3:hover, #buy4:hover, #buy5:hover{
+    background-color: white;
+    padding: 2%;
+    filter: invert(100%); 
+}
+
+
+
+
